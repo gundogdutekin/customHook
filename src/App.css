@@ -11,6 +11,42 @@
   will-change: filter;
   transition: filter 300ms;
 }
+.btn{
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+.btn-green{
+  background-color: #4CAF50; /* Green */
+  border:1px solid #4CAF50;
+  
+}
+.btn-green:hover{
+  background-color: #3e8e41;
+  border:1px solid #3e8e41;
+}
+.btn-red{
+  background-color: #df4d4d; /* Green */
+  border:1px solid #df4d4d;
+
+}
+.btn-red:hover{
+  background-color: #e02615;
+  border:1px solid #e02615;
+}
+.btn-default{
+  background-color: #636161; /* Green */
+  border:1px solid #636161;
+  color: white;
+ 
+}
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
