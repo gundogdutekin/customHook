@@ -1,13 +1,10 @@
-import {useState} from 'react'
-import useTitleCountDisplay from './useTitleCountDisplay'
+
+import useCounter from './useCounter'
+
 
 export default function TitleOne() {
-    const [count, setCount] = useState(0)
-    const increment = () => setCount(a=>a+1)
-    const decrement = () => setCount(a=>a-1)
-    const reset = () => setCount(0)
-
-    useTitleCountDisplay(count)//useTitleCountDisplay is a custom hook
+   
+    const {count, increment, decrement, reset} = useCounter()
         
   return (
     <div>
