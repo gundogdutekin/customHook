@@ -1,11 +1,11 @@
 
 import useCounter from './useCounter'
-
+import useTitleCountDisplay from "./useTitleCountDisplay";
 
 export default function TitleOne() {
    
     const {count, increment, decrement, reset} = useCounter()
-        
+    useTitleCountDisplay(count)     
   return (
     <div>
       <h1>{count}</h1>
